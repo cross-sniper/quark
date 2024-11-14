@@ -1,0 +1,61 @@
+/* style.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Container for the page content */
+div {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for the links when handled by LinkHandler */
+a.link {
+  color: #28a745;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a.link:hover {
+  color: #218838;
+}
+
+/* Make the page display more visually distinct */
+div > div {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
