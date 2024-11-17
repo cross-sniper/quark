@@ -46,7 +46,7 @@ import esbuild from "esbuild";
 import crypto from "crypto";
 
 // Directory to serve files from
-const webDirectory = process.argv[1] || path.resolve(__dirname, "src");
+const webDirectory = process.argv[2] || path.resolve(__dirname, "src");
 console.log(`ZeroPoint will use ${webDirectory}`)
 
 const mimeType = {
